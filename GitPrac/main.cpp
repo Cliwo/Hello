@@ -7,6 +7,11 @@
 //
 
 #include "stdio.h"
+void name_out(int var)
+{
+    printf("내 나이는 %d\n",var);
+    return;
+}
 
 int dateToday(){
     int date = 13;
@@ -15,6 +20,7 @@ int dateToday(){
 
 int main()
 {
+
     printf("오늘 날짜는?\n");
     int date=0;
     date = dateToday();
@@ -22,5 +28,13 @@ int main()
     
     
     
+    int var;
+    printf("hello!\n");
+    printf("니 나이 몇살이노?\n");
+    scanf("%d",&var);
+    name_out(var);
+
     return 0;
 }
+
+
