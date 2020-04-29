@@ -8,8 +8,19 @@
 
 #include "stdio.h"
 
+int dateToday(){
+    int date = 13;
+    return date;
+}
+
 int main()
 {
-    printf("hello!\n");
+    printf("오늘 날짜는?\n");
+    int date=0;
+    date = dateToday();
+    printf("%d일\n",date);
+    
+    
+    
     return 0;
 }
